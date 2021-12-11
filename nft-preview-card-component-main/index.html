@@ -10,40 +10,54 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./stylesheet.css" />
 
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
   <body>
-    <div  class="container">
+    <div class="container">
       <div class="card">
-        <img src="./images/image-equilibrium.jpg" alt="equilibrium image" />
+        <div class="overlay">
+          <img src="images/icon-view.svg" alt=" view icon" />
+        </div>
 
-        <h1>Equilibrium #3429</h1>
+        <div class="image">
+          <img
+            class="mainImg"
+            src="./images/image-equilibrium.jpg"
+            alt="equilibrium image"
+          />
+        </div>
+
+        <h1 id="title">Equilibrium #3429</h1>
 
         <p>Our Equilibrium collection promotes balance and calm.</p>
 
-        <div>
-          <img src="./images/icon-ethereum.svg" alt="ethereum" />
-          <span>0.041 ETH</span>
+        <div class="information">
+          <div class="priceInformation">
+            <img src="./images/icon-ethereum.svg" alt="ethereum" />
+            <span>0.041 ETH</span>
+          </div>
+
+          <div class="timeInformation">
+            <img src="./images/icon-clock.svg" alt="clock icon" />
+            <span>3 days left</span>
+          </div>
         </div>
 
-        <div>
-          <img src="./images/icon-clock.svg" alt="clock icon" />
-          <span>3 days left</span>
-        </div>
-        <div>
+        <hr />
+
+        <div class="credits">
           <img src="./images/image-avatar.png" alt="avatar of Jules Wyrvern" />
-          <span>Creation of Jules Wyvern</span>
+          <p><span>Creation of</span><a href=""> Jules Wyvern</a></p>
         </div>
       </div>
-    </div>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Karthikeyan</a>.
     </div>
   </body>
 </html>
