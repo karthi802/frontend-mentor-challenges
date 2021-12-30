@@ -52,10 +52,6 @@ In this practice project I tried out the mobile-first workflow like the card for
 ```
 I also learned to use the percentage(%) representation of width instead of pixels(px). So I had fun doing, learning and the mistakes I was doing with this project😋
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 I want to learn to use rem instead of px and make the website more responsive.
