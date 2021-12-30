@@ -11,30 +11,48 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
     <title>Frontend Mentor | Order summary card</title>
   </head>
   <body>
-    <div>
-      <img src="./images/illustration-hero.svg" alt="Person listening to music">
-      <h1>Order Summary</h1>
+    <div class="container">
+      <div class="card">
+        <img
+          src="./images/illustration-hero.svg"
+          alt="Person listening to music"
+          class="imgMain"
+        />
 
-      <p>
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
+        <h1 id="title">Order Summary</h1>
 
-      <div>
-        <img src="./images/icon-music.svg" alt="music icon" />
-        <div>
-          <p>Annual Plan</p>
-          <p>$59.99/year</p>
+        <p class="description">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+
+        <div class="plan">
+          <div class="mainInfo">
+            <img src="./images/icon-music.svg" alt="music icon" />
+            <div class="planInfo">
+              <p class="planType">Annual Plan</p>
+              <p class="price">$59.99/year</p>
+            </div>
+          </div>
+          <a href="#">Change</a>
         </div>
-        <a href="#">Change</a>
+
+        <button type="button" class="paymentBtn">Proceed to Payment</button>
+
+        <button type="button" class="cancelBtn">Cancel Order</button>
       </div>
-
-      <button type="button">Proceed to Payment</button>
-
-      <button type="button">Cancel Order</button>
     </div>
   </body>
 </html>
