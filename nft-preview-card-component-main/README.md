@@ -10,7 +10,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-- [Author](#author)
 
 
 ## Overview
@@ -29,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site](https://karthi802.github.io/frontend-mentor-challenges/nft-preview-card-component-main/index.html)
 
 ## My process
 
@@ -38,7 +37,3 @@ Users should be able to:
 - HTML5
 - CSS custom properties
 - Flexbox
-
-## Author
-
-- Frontend Mentor - [@karthi802](https://www.frontendmentor.io/profile/karthi802)
